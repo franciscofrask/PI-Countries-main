@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #27394A ;
+}
+.search{
+    color: white;
+   width: 100%;
+   font-size: 1.5em;
+}
+.h2{
+    color: rgb(255, 255, 255);
+}

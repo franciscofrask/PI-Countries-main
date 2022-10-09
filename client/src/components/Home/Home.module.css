@@ -1,0 +1,61 @@
+*{
+	text-decoration: none;
+}
+
+
+.cardsContainer{
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+  
+}
+.anchor{
+	background-color: red;
+	width: fit-content;
+}
+.allSelects {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	margin: 0.5vh 0.5vw;
+	
+}
+
+.selects {
+	font-size: 14px;
+	cursor: pointer;
+	padding: 5px 5px;
+	margin: 1vh 1vw 1vh 1vw;
+	border-radius: 15px;
+	color: white;
+	background-color: #27394A  ;
+}
+
+
+.pagination {
+	margin-top: 20px;
+	cursor:pointer;
+}
+
+.reaload {
+    font-family: 'Acme', sans-serif;
+	font-size: 14px;
+	color:rgb(27, 27, 27);
+	background-color: rgb(242, 242, 242);
+	cursor: pointer;
+	margin: 2vh 1vw;
+	border-radius: 8px;
+}
+.reload:hover{
+  background: rgb(158, 158, 158);
+  color: rgb(27, 27, 27);
+  box-shadow: 0 0 1px #03e9f4,
+        0 0 5px #03e9f4,
+        0 0 10px #03e9f4,
+        0 0 15px #03e9f4;
+}
+h1{
+	color: white;
+}
